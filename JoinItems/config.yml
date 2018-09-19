@@ -1,0 +1,89 @@
+---
+defaultConfig:
+  onJoin: ttue
+  onRespawn: ttue
+items:
+  example:
+    item: 345
+    title: |-
+      &l&bExample Item&r
+      &fTap to go to lobby.&r
+    commands:
+    - lobby
+    slot: 0
+    sound: PopSound
+    group: join
+  leaveHG:
+    item: 399
+    title: |-
+      &l&eLeave HungerGames&r
+      &fTap to return to lobby.&r
+    commands:
+    - hg leave
+    slot: 8
+    sound: EndermanTeleportSound
+    enchantment: 34
+    group: hgLeave
+  hungergamesNear:
+    item: 345
+    title: |-
+      &l&aNearly HungerGames Player&r
+      &fTap to show nearly Player.&r
+    commands:
+    - hg steps player
+    slot: 8
+    sound: PopSound
+    group: hgNear
+  hungerNormalVote:
+    item: 280
+    title: |-
+      &l&5Normal Chests&r
+      &fTap to vote HungerGames Normal Chests.&r
+    commands:
+    - hg chest normal
+    slot: 4
+    sound: PopSound
+    group: hungergames
+  hungerOpVote:
+    item: 369
+    title: |-
+      &l&bOverPowered Chests&r
+      &fTap to vote HungerGames OP Chests.&r
+    commands:
+    - hg chest op
+    slot: 5
+    sound: BlazeShootSound
+    group: hungergames
+  hungerPlayers:
+    item: 397
+    meta: 3
+    title: |-
+      &l&aHungerGames Players&r
+      &fTap to show in arena players.&r
+    commands:
+    - hg players
+    slot: 0
+    sound: PopSound
+    group: hgPlayers
+  hungerStart:
+    item: 347
+    title: |-
+      &l&eStart HungerGames&r
+      &fTap to start the arena.&r
+    commands:
+    - hg start
+    slot: 3
+    sound: BlazeShootSound
+    group: hungergames
+  hgSpectators:
+    item: 397
+    meta: 1
+    title: |-
+      &l&7HungerGames Spectators&r
+      &fTap to show in arena spectators.&r
+    commands:
+    - hg spectators
+    slot: 1
+    sound: PopSound
+    group: hgPlayers
+...

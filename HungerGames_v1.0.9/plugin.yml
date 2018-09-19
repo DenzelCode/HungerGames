@@ -1,0 +1,8 @@
+## by Denzel Code
+---
+name: HungerGames
+main: HungerGames\Main
+author: Denzel Code
+version: 1.0.9
+api: [1.0.0, 2.0.0, 3.0.0, 3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9, 3.0.0-ALPHA10]
+...
