@@ -348,12 +348,12 @@
             if ($players > 0 && $arena->getStatus() == Arena::IN_GAME) {
                 $economy = $this->getPlugin('EconomyAPI');
 
-                $tops = $this->getPlugin('Tops');
+                // $tops = $this->getPlugin('Tops');
                 
                 if ($arena->getEndTime()) {
                     $economy->reduceMoney($player->getName(), $mainConfig->get('deathMoney'));
 
-                    $tops->increasePlayerDeaths($player->getName());
+                    // $tops->increasePlayerDeaths($player->getName());
                 }
             }
             

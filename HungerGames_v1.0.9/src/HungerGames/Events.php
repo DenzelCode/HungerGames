@@ -404,7 +404,7 @@
             
             $pocketPlayers = $arena->getPocketPlayers();
             
-            $tops = self::getMain()->getPlugin('Tops');
+            // $tops = self::getMain()->getPlugin('Tops');
             
             $economy = self::getMain()->getPlugin('EconomyAPI');
             
@@ -451,7 +451,7 @@
                                 
                                 $killer->setFood(20);
                                 
-                                $tops->increasePlayerKills($killer->getName());
+                                // $tops->increasePlayerKills($killer->getName());
                                 
                                 $killer->getLevel()->addSound(new $killSound($killer), [$killer]);
                                 
@@ -481,7 +481,7 @@
 
                                     $killer->setFood(20);
 
-                                    $tops->increasePlayerKills($killer->getName());
+                                    // $tops->increasePlayerKills($killer->getName());
 
                                     $killer->getLevel()->addSound(new $killSound($killer), [$killer]);
 
@@ -520,7 +520,7 @@
 
                                     $killer->setFood(20);
 
-                                    $tops->increasePlayerKills($killer->getName());
+                                    // $tops->increasePlayerKills($killer->getName());
 
                                     $killer->getLevel()->addSound(new $killSound($killer), [$killer]);
 
@@ -558,7 +558,7 @@
 
                                 $killer->setFood(20);
 
-                                $tops->increasePlayerKills($killer->getName());
+                                // $tops->increasePlayerKills($killer->getName());
 
                                 $killer->getLevel()->addSound(new $killSound($killer), [$killer]);
 
